@@ -1,0 +1,12 @@
+import WordPressMadara from './templates/WordPressMadara.mjs';
+
+export default class DropScan extends WordPressMadara {
+
+    constructor() {
+        super();
+        super.id = 'dropscan';
+        super.label = 'Drop Scan';
+        this.tags = [ 'manga', 'webtoon', 'portuguese', 'scanlation' ];
+        this.url = 'https://dropescan.com';
+    }
+}
